@@ -17,8 +17,8 @@ def test_dl_path_invalid_program_exit():
 
 def test_dl_path_validation():
     download_location = "./dl-folder"
-    from config_data import ConfigData
-    from configuration import Configuration
+    from humble_downloader.config_data import ConfigData
+    from humble_downloader.configuration import Configuration
     Configuration.load_configuration("hb-downloader-settings.yaml")
     ConfigData.download_location = download_location
     validation_status, message = Configuration.validate_configuration()

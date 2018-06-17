@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import httpretty
-from humble_api.humble_api import HumbleApi
-from actions import Action
+from humble_downloader.humble_api.humble_api import HumbleApi
+from humble_downloader.actions import Action
 
 
 @httpretty.activate

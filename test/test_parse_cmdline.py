@@ -3,8 +3,8 @@
 
 import sys
 import subprocess
-from config_data import ConfigData
-from configuration import Configuration
+from humble_downloader.config_data import ConfigData
+from humble_downloader.configuration import Configuration
 
 actions = ["download", "list"]
 

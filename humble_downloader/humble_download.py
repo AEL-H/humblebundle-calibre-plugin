@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 import os
 import requests
-from config_data import ConfigData
-from humble_api.events import Events
-from humble_api.humble_hash import HumbleHash
+from .config_data import ConfigData
+from .humble_api.events import Events
+from .humble_api.humble_hash import HumbleHash
 
 __author__ = "Brian Schkerke"
 __copyright__ = "Copyright 2016 Brian Schkerke"

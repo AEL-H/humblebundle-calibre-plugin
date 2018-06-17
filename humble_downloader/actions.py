@@ -3,10 +3,10 @@
 
 __license__ = "MIT"
 
-from humble_download import HumbleDownload
-from progress_tracker import ProgressTracker
-from config_data import ConfigData
-import logger
+from .humble_download import HumbleDownload
+from .progress_tracker import ProgressTracker
+from .config_data import ConfigData
+from . import logger
 
 
 class Action:
